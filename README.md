@@ -4,7 +4,8 @@ This project is a simple web application for keeping track of basketball scores 
 
 ## Link to project
 
-- Preview it [by clicking on this link](https://blessingojediran.github.io/Basketball-Scoreboard/)
+- Figma design can be found [here](https://www.figma.com/file/0baEWmLOnaf4TjSfVKtstw/Basketball-Scoreboard?type=design&node-id=0%3A1&mode=design&t=KaMef0tT1zgphl1T-1)
+- Preview the live project [by clicking on this link](https://blessingojediran.github.io/Basketball-Scoreboard/)
 
 ## Features
 
