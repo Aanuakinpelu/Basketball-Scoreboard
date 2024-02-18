@@ -1,19 +1,40 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <div class="counter-div">
-                <h3>HOME</h3>
-                <div class="black-count-div">
-                    <p id="home-points-text">0</p>
+        <div  class="container">
+            <div class="counters-div">
+                <div class="counter-div">
+                    <h3>HOME</h3>
+                    <div class="home-score">
+                        <p id="home-points-text">0</p>
+                    </div>
+                    <div class="add-points-btns-group">
+                        <div class="control" id="plus-one-point" onclick="addhome1()">+1</div>
+                        <div class="control" id="plus-two-point" onclick="addhome2()">+2</div>
+                        <div class="control" id="plus-three-point" onclick="addhome3()">+3</div>
+                    </div>
                 </div>
+
+                <div class="counter-div">
+                    <h3>GUEST</h3>
+                    <div class="guest-score">
+                        <p id="guest-points-text">0</p>
+                    </div>
+                    <div class="add-points-btns-group">
+                        <div class="control" id="plus-one-point" onclick="addguest1()">+1</div>
+                        <div class="control" id="plus-two-point" onclick="addguest2()">+2</div>
+                        <div class="control" id="plus-three-point" onclick="addguest3()">+3</div>
+                    </div>
+                </div>
+                    
             </div>
-            <div>
-                <h3>GUEST</h3>
-            </div>
+            
+            <button onclick="reset()">START NEW GAME</button>
+
         </div>
+         
         <script src="index.js"></script>
     </body>
 </html>
