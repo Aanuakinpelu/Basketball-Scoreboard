@@ -1,6 +1,6 @@
 # Basketball Scorecard Counter
 
-This project is a simple web application for keeping track of basketball scores during a game. It allows users to increment or decrement the scores for both teams and displays the current score in real-time. 
+This project is a simple web application for keeping track of basketball scores during a game. It allows users to increase the scores for both teams and displays the current score in real-time. 
 
 ## Link to project
 
