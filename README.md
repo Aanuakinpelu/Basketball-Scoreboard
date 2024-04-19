@@ -13,6 +13,8 @@ This project is a simple web application for keeping track of basketball scores 
 - Real-time updating of scores.
 - "Start New Game" button to reset scores to zero.
 
+- Testing Testing
+
 ## How to Use
 
 1. Clone the repository to your local machine.
